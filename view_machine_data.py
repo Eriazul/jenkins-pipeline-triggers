@@ -1,6 +1,6 @@
 import socket
 import os
-
+//HI
 def main():
     hostname = socket.gethostname()
     print(f"Name of the server: {hostname}")
