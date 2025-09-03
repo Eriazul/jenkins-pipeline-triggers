@@ -2,7 +2,8 @@ pipeline {
     agent any
     // Check for changes in the SCM every minute
    triggers {
-       pollSCM '* * * * *'
+       //-COMENTADO porque si no se ejecuta a cada rato
+       //pollSCM '* * * * *'
     }
     
     stages {
